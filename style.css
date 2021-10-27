@@ -37,13 +37,12 @@ a:hover {
 
 header {
   background: #2d4a22;
-  padding: 2rem 0 10rem;
+  padding: 2rem 0 12rem;
   text-align: center;
 }
 
 #logo {
   color: #ffffff;
-  font-weight: 100;
 }
 
 .container {
@@ -78,6 +77,7 @@ header {
   border-radius: 0.25rem;
   margin-bottom: 2rem;
   color: var(--dark-blue);
+  white-space: nowrap;
 }
 
 .card h3 {
@@ -144,6 +144,7 @@ table tbody tr:hover {
 table tbody td {
   background: white;
   padding: 1rem 2rem;
+  white-space: nowrap;
 }
 
 td.description {
